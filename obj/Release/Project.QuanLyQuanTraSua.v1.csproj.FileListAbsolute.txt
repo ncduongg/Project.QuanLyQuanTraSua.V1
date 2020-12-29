@@ -1,0 +1,14 @@
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.csprojAssemblyReference.cache
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.frmDL_AddBill.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.frmDL_AddFood.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.frmDL_AddUser.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.frmDL_AddUserReal.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.frmDL_EditFood.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.frmIndex.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.frmLogin.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.Properties.Resources.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.UC_Food.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.UC_POS.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.UC_User.resources
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.csproj.GenerateResource.cache
+D:\LAPTRINH\C#\Project.QuanLyQuanTraSua.v1\Project.QuanLyQuanTraSua.v1\obj\Release\Project.QuanLyQuanTraSua.v1.csproj.CoreCompileInputs.cache

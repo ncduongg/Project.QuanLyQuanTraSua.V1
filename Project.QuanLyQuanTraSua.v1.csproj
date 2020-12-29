@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96867533-6951-43A7-861D-AF60253F89A3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project.QuanLyQuanTraSua.v1</RootNamespace>
+    <AssemblyName>Project.QuanLyQuanTraSua.v1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Project.QuanLyQuanTraSua.v1.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI">
+      <HintPath>C:\Users\Administrator\Desktop\Guna Framework UI Lastest Version + Cracked\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna UI Framework Ultimate 2.0.0.1\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>C:\Users\Administrator\Desktop\Guna Framework UI Lastest Version + Cracked\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna UI Framework Ultimate 2.0.0.1\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connections\DBConnection.cs" />
+    <Compile Include="Controller\categoryController.cs" />
+    <Compile Include="Controller\foodController.cs" />
+    <Compile Include="Controller\imagesController.cs" />
+    <Compile Include="Controller\taikhoanController.cs" />
+    <Compile Include="frmDL_AddBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDL_AddBill.Designer.cs">
+      <DependentUpon>frmDL_AddBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDL_AddFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDL_AddFood.Designer.cs">
+      <DependentUpon>frmDL_AddFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDL_AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDL_AddUser.Designer.cs">
+      <DependentUpon>frmDL_AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDL_AddUserReal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDL_AddUserReal.Designer.cs">
+      <DependentUpon>frmDL_AddUserReal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDL_EditFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDL_EditFood.Designer.cs">
+      <DependentUpon>frmDL_EditFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIndex.Designer.cs">
+      <DependentUpon>frmIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\category.cs" />
+    <Compile Include="Model\food.cs" />
+    <Compile Include="Model\foodEx.cs" />
+    <Compile Include="Model\taikhoan.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_Food.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Food.Designer.cs">
+      <DependentUpon>UC_Food.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_POS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_POS.Designer.cs">
+      <DependentUpon>UC_POS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_User.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_User.Designer.cs">
+      <DependentUpon>UC_User.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmDL_AddBill.resx">
+      <DependentUpon>frmDL_AddBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDL_AddFood.resx">
+      <DependentUpon>frmDL_AddFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDL_AddUser.resx">
+      <DependentUpon>frmDL_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDL_AddUserReal.resx">
+      <DependentUpon>frmDL_AddUserReal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDL_EditFood.resx">
+      <DependentUpon>frmDL_EditFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIndex.resx">
+      <DependentUpon>frmIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UC_Food.resx">
+      <DependentUpon>UC_Food.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_POS.resx">
+      <DependentUpon>UC_POS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_User.resx">
+      <DependentUpon>UC_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+    <Folder Include="img\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
